@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+.env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+# 建议在提交前清除 Notebook 输出，或采用专用过滤器（如 nbstripout）
+
+# 深度学习常见生成物
+runs/
+logs/
+outputs/
+checkpoints/
+# 模型与权重（通常不直接纳入仓库）
+*.pt
+*.pth
+*.onnx
+*.params
+*.ckpt
+
+# 数据与缓存（按需放开子集）
+.data/
+data/
+datasets/
+.cache/
+
+# 系统文件
+.DS_Store
+Thumbs.db
